@@ -1,4 +1,5 @@
 # Comment 
+---                                           # --> Start of the file
 courses:
   course_name: "React JS"
   version: 1.1
@@ -33,3 +34,8 @@ courses:
 #   newKey: newValue
 #   myKey: myValue
   
+...                                           # --> End of the file
+
+
+# Official link
+# https://yaml.org/
