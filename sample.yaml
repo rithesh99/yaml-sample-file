@@ -1,0 +1,35 @@
+# Comment 
+courses:
+  course_name: "React JS"
+  version: 1.1
+  price: &course_price 199
+  release_date: 2024-04-05 12:33:45
+  tags:                                       # --> Array of strings
+    - javscript
+    - ES6
+    - typescript
+  course_ta_names: ["Rithesh", "David"]       # --> Array of strings
+  course_ta:                                  # --> Array of objects
+    - name: "Rithesh"                         # --> Object
+      age: 25
+      rating: 4.5
+    - { name: "David",age: 27,rating: 4.2 }   # --> Object
+  short_description: >
+    These liness will
+    be stored in a single line
+    like a string
+  long_description: |
+    These lines will
+      be stored in multiple lines
+    with the formatting applied
+  payment_price: *course_price 
+
+  adv: @adv
+    myKey: myValue
+  another_adv:
+    newKey: newValue
+    <<: *adv
+# another_adv:
+#   newKey: newValue
+#   myKey: myValue
+  
